@@ -1,11 +1,11 @@
 import React from 'react';
 import './Portfolio.css';
-import Navbar from './Navbar';
+import { NavBar } from './Navbar';
 
 function Portfolio() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
       <div className="headline">
         <h1>I Merge Art And Technology To Create Cutting-Edge Websites</h1>
       </div>
